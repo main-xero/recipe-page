@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Young-Serif";
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf)
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(./assets/fonts/outfit/static/Outfit-Regular.ttf)
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(./assets/fonts/outfit/static/Outfit-Medium.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(./assets/fonts/outfit/static/Outfit-SemiBold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
+}
+
+main {
+  margin: 128px auto 128px auto;
+  width: 736px;
+  height: 1700px;
+  background-color: white;
+  border-radius: 24px;
+}
+
+.recipe {
+  margin: 0 40px;
+}
+
+.recipe h1 {
+  font-family: "Young Serif";
+}
+
+main header img {
+  width: 656px;
+  height: 300px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 14px;
+}
+
+main header h1 {
+  font-size: 40px;
+  margin-bottom: 24px;
+  color: hsl(24, 5%, 18%);
+}
+
+main header p {
+  margin-bottom: 32px;
+}
+
+.preperation {
+  margin-bottom: 32px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 12px;
+  padding: 24px;
+  color: hsl(332, 51%, 32%);
+}
+
+.preperation h3 {
+  margin: 8px 0 16px 0;
+}
+
+.preperation ul {
+  margin-left: 14px;
+}
+
+.preperation li {
+  margin-bottom: 10px;
+  padding-left: 14px;
+}
+
+.prepration li:last-child {
+  margin-bottom: 0;
+}
+
+.detail {
+  font-weight: bold;
+}
+
+.ingredients {
+  margin-bottom: 32px;
+}
+
+.ingredients h2 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 24px;
+  font-family: "Young Serif";
+}
+
+.ingredients ul {
+  margin-left: 16px;
+}
+
+.ingredients ul li {
+  padding-left: 14px;
+  margin-bottom: 10px;
+}
+
+.ingredients ul li:last-child {
+  margin-bottom: 0;
+}
+
+hr {
+  border-top: 1px solid hsl(30, 54%, 90%);
+  opacity: 0.1;
+}
+
+.instructions {
+  margin: 32px 0;
+}
+
+.instructions h2 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 24px;
+  font-family: "Young Serif";
+}
+
+.instructions ol {
+  margin-left: 16px;
+}
+
+.instructions ol li {
+  margin-bottom: 10px;
+  padding-left: 16px;
+}
+
+.nutrition {
+  margin-top: 32px;
+}
+
+.nutrition h2 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 24px;
+  font-family: "Young Serif";
+}
+
+.nutrition > p {
+  margin-bottom: 24px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td {
+  padding: 1rem 0;
+}
+
+table tr {
+  border-bottom: 1px solid #9999992c;
+  padding: 1rem 0;
+}
+
+table tr:last-child {
+  border: none;
+}
+
+.value {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
